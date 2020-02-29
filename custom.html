@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Link your css file here -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Create a title for your website tab -->
+<title>Custom</title>
+
+</head>
+<body>
+  <div class="title">
+    <h1>41091A Revelation Programming Guide - Custom Functions</h1>
+  </div>
+  <div class="navigation">
+    <a href="index.html">HOME</a>
+    <a href="custom.html">CUSTOM</a>
+  </div>
+
+  <p>&nbsp;</p>
+  <div class="section">
+    <h2>Desctiption</h2>
+    <p>
+        Here you will find all of the functions that we created custom this year. 
+        We have found all of these functions super helpful and we hope you do too.
+    </p>
+  </div>
+
+  <p>&nbsp;</p>
+
+  <div class="section">
+    <h2>PIDLoop(speed, distance, direction, time)</h2>
+    <p>
+        This function is a PID controller for driving forward and backwards.  
+        The parameters are the max speed (speed) measured in <b>percentage</b>, 
+        distance to travel (distance) measured in <b>inches</b>, 
+        the direction as a string statement of <b>“fwd” or “rev”</b> and time measured in <b>sec</b>.
+    </p>
+  </div>
+
+  <div class="section">
+      <h2>NonPIDLoop(speed, distance, direction, time, stopMotor)</h2>
+      <p>
+        This function does not use a PID controller for driving forward and backwards.  
+        The parameters are the speed (speed) measured in percentage, 
+        distance to travel (distance) measured in inches, 
+        the direction as a string statement of “fwd” or “rev”, 
+        time the function has measured in sec, 
+        and the type of brake for the motors (stopMotor) as a string statement of “none” to have the motors keep running after the function
+         and “yes” for a motor hold.
+      </p>
+  </div>
+  
+</body>
+</html>
